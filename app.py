@@ -13,3 +13,9 @@ def division(a,b):
     else:
         return "Error: Division by zero is not allowed."
     
+def percentage(part, whole):
+    if whole != 0:
+        return (part / whole) * 100
+    else:
+        return "Error: Whole cannot be zero."
+    
